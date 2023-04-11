@@ -7,7 +7,7 @@ function selectionSort(arr){
                indexOfMin=j
            }
        }
-       if(arr[indexOfMin]!==i){
+       if(indexOfMin!==i){
            let temp=arr[indexOfMin]
            arr[indexOfMin]=arr[i]
            arr[i]=temp

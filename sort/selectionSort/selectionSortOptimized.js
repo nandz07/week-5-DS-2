@@ -11,7 +11,7 @@ const selectionSort = (arr) =>{
                 indexofMin = j
             }
         }
-        if(arr[indexofMin]  !== i) {
+        if(indexOfMin!==i){
             swap(arr,indexofMin,i)
             }
     }
